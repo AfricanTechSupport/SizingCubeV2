@@ -1,21 +1,21 @@
 <xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="l|53,t|~hkjEBP5om?;A" x="5" y="-194"><statement name="HANDLER"><block type="function_call" id="]==)u7wqQi=g5?c9lh;M"><mutation name="melodyPlay" functionid="4ly-~lWh=B6K*/O.ITfY"/><next><block type="function_call" id="Z+GEv*Q)/]dA1`v15y0c"><mutation name="cubeBuild" functionid="m+m,4Hc4tYXYf4`pI=ic"/></block></next></block></statement></block><block type="function_definition" id="M.-x9}4dX=]BN+XWr?;j" x="220" y="-147"><mutation name="melodyPlay" functionid="4ly-~lWh=B6K*/O.ITfY"/><field name="function_name">melodyPlay</field><statement name="STACK"><block type="controls_repeat_ext" id="Pa=x|3pQTAu6v7f3h:l_"><value name="TIMES"><shadow type="math_whole_number" id="HLa-;1qjde;,,#T+{Vf."><field name="NUM">100</field></shadow></value><statement name="DO"><block type="playMelody" id="js(JzHvg8yGDd^N.lCEP"><value name="melody"><shadow type="melody_editor" id="~VDOFTq:ObxRD04u*d5."><field name="melody">"C D E D C D E F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="Vd)/F{K8Z;rH4sJsa{Fh"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">150</field></shadow></value></block></statement></block></statement></block><block type="pxt-on-start" id="|`,X#B:kVSK/VOh6A.P*" x="0" y="0"><statement name="HANDLER"><block type="function_call" id="fm%t=;BaAHs7g?-}KGjt"><mutation name="loadingScreen" functionid="X%_U%u@+!D0c@l1^2@X^"/></block></statement></block><block type="function_definition" id="r]OEvqtFxm2AtM1|0_)c" x="-20" y="144"><mutation name="cubeBuild" functionid="m+m,4Hc4tYXYf4`pI=ic"/><field name="function_name">cubeBuild</field><statement name="STACK"><block type="function_call" id="l}lccT6b--ej5%.g~51W"><mutation name="BigCubeBuild" functionid="I@Qqo.(X|{a9cZnXGP|_"/><next><block type="function_call" id="|JX~My}qsKS`YuFO,z_b"><mutation name="MediumCubeBuild" functionid="P!yp(,tJLz]:g[[%$rHr"/><next><block type="function_call" id="V)3:9kR3E3Gf+ALK8DIR"><mutation name="SmallCubeBuild" functionid="?MP7~4rokhb`=!I[jd/k"/></block></next></block></next></block></statement></block><block type="function_definition" id="q{]!614YTaqbH32szZV?" x="304" y="188"><mutation name="loadingScreen" functionid="X%_U%u@+!D0c@l1^2@X^"/><field name="function_name">loadingScreen</field><statement name="STACK"><block type="device_show_leds" id=".*6=NHAa=)-]71H])HF$"><field name="LEDS">`
-        # # # # # 
+        . . # . . 
+        . # . # . 
         # . . . # 
-        # . # . # 
-        # . . . # 
-        # # # # #
+        . # . # . 
+        . . # . .
         `</field><next><block type="device_show_leds" id="Prwop/ZzV:+Yo+Vrc1g;"><field name="LEDS">`
         . . . . . 
+        . . # . . 
         . # # # . 
-        . # . # . 
-        . # # # . 
+        . . # . . 
         . . . . .
         `</field><next><block type="device_show_leds" id="zxjG7-u^qE91wMqor(8d"><field name="LEDS">`
-        # # # # # 
+        . . # . . 
+        . # . # . 
         # . . . # 
-        # . # . # 
-        # . . . # 
-        # # # # #
+        . # . # . 
+        . . # . .
         `</field><next><block type="device_clear_display" id="vzjHf%m5gFiMV%5kz2Sh"><next><block type="device_print_message" id="!wjcQQYvDTc^x3=DcT=$"><value name="text"><shadow type="text" id="WiZKlg9+pX/|#hKAQH{V"><field name="TEXT">Loading project. Please hold.</field></shadow></value><next><block type="device_pause" id="rjlu%5o[WY8M1_k~d)9S"><value name="pause"><shadow type="timePicker" id="s^b{7Q`wd+r-clWn.P9j"><field name="ms">5000</field></shadow></value><next><block type="device_clear_display" id="rn]x!C[-/ynE(::8~8N0"><next><block type="device_print_message" id="{[;;S/{cDB-nOn`9E,*8"><value name="text"><shadow type="text" id="^TttZ2mM6!sLqLmcSV1="><field name="TEXT">Sizing Cube V2: loaded.</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="|`fv;yTJWL0Qm2kET)7{" x="-28" y="404"><mutation name="BigCubeBuild" functionid="I@Qqo.(X|{a9cZnXGP|_"/><field name="function_name">BigCubeBuild</field><statement name="STACK"><block type="device_show_leds" id="QkMfEpj4$]|xd.1;JbzO"><field name="LEDS">`
         # # # # # 
         # . . . # 

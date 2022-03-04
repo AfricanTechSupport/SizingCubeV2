@@ -72,25 +72,25 @@ function MediumCubeBuild () {
 }
 function loadingScreen () {
     basic.showLeds(`
-        # # # # #
-        # . . . #
-        # . # . #
-        # . . . #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . # # # .
+        . . # . .
         . # . # .
+        # . . . #
+        . # . # .
+        . . # . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . # . .
         . # # # .
+        . . # . .
         . . . . .
         `)
     basic.showLeds(`
-        # # # # #
+        . . # . .
+        . # . # .
         # . . . #
-        # . # . #
-        # . . . #
-        # # # # #
+        . # . # .
+        . . # . .
         `)
     basic.clearScreen()
     basic.showString("Loading project. Please hold.")
