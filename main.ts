@@ -252,7 +252,17 @@ basic.forever(function () {
     cubeBuild()
 })
 control.inBackground(function () {
-    for (let index = 0; index < 100; index++) {
-        music.playMelody("C G E A F D B C5 ", 150)
+    for (let index = 0; index < 4; index++) {
+        for (let index = 0; index < 4; index++) {
+            for (let index = 0; index < 4; index++) {
+                for (let index = 0; index < 4; index++) {
+                    for (let index = 0; index < 4; index++) {
+                        for (let index = 0; index < 100; index++) {
+                            music.playMelody("C G E A F D B C5 ", 150)
+                        }
+                    }
+                }
+            }
+        }
     }
 })
