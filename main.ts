@@ -253,6 +253,6 @@ basic.forever(function () {
 })
 control.inBackground(function () {
     for (let index = 0; index < 100; index++) {
-        music.playMelody("C D E D C D E F ", 150)
+        music.playMelody("C G E A F D B C5 ", 150)
     }
 })
