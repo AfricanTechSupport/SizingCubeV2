@@ -114,11 +114,6 @@ function SmallCubeBuild () {
         . . . . .
         `)
 }
-function melodyPlay () {
-    for (let index = 0; index < 100; index++) {
-        music.playMelody("C D E D C D E F ", 150)
-    }
-}
 function cubeBuild () {
     BigCubeBuild()
     MediumCubeBuild()
@@ -254,6 +249,10 @@ function BigCubeBuild () {
 }
 loadingScreen()
 basic.forever(function () {
-    melodyPlay()
     cubeBuild()
+})
+control.inBackground(function () {
+    for (let index = 0; index < 100; index++) {
+        music.playMelody("C D E D C D E F ", 150)
+    }
 })
