@@ -81,7 +81,7 @@ function loadingScreen () {
     basic.showLeds(`
         . . . . .
         . . # . .
-        . # # # .
+        . # . # .
         . . # . .
         . . . . .
         `)
