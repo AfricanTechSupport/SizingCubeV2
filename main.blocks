@@ -130,13 +130,7 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field><next><block type="device_show_leds" id="FcfOqauZ(=(XA@%R[-Ma"><field name="LEDS">`
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="jWgnlQEhBqHe`QX;)F4," x="294" y="1676"><mutation name="MediumCubeBuild" functionid="P!yp(,tJLz]:g[[%$rHr"/><field name="function_name">MediumCubeBuild</field><statement name="STACK"><block type="device_show_leds" id="{3SheqHsOjyRq!^w+OCE"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="jWgnlQEhBqHe`QX;)F4," x="294" y="1676"><mutation name="MediumCubeBuild" functionid="P!yp(,tJLz]:g[[%$rHr"/><field name="function_name">MediumCubeBuild</field><statement name="STACK"><block type="device_show_leds" id="{3SheqHsOjyRq!^w+OCE"><field name="LEDS">`
         . . . . . 
         . # # # . 
         . # . # . 
@@ -190,13 +184,7 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field><next><block type="device_show_leds" id="[`(VNj_?JSB=RZ:9eB0F"><field name="LEDS">`
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="Ma)B#U0+;C#Pwo0c6_iu" x="321" y="3583"><mutation name="SmallCubeBuild" functionid="?MP7~4rokhb`=!I[jd/k"/><field name="function_name">SmallCubeBuild</field><statement name="STACK"><block type="device_show_leds" id="`~AOm81U=((F=CARgsP+"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="Ma)B#U0+;C#Pwo0c6_iu" x="308" y="4042"><mutation name="SmallCubeBuild" functionid="?MP7~4rokhb`=!I[jd/k"/><field name="function_name">SmallCubeBuild</field><statement name="STACK"><block type="device_show_leds" id="`~AOm81U=((F=CARgsP+"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . # . . 

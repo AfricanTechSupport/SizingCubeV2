@@ -62,13 +62,6 @@ function MediumCubeBuild () {
         . . . . .
         . . . . .
         `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
 }
 function loadingScreen () {
     basic.showLeds(`
@@ -241,13 +234,6 @@ function BigCubeBuild () {
         `)
     basic.showLeds(`
         . . . . #
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . . . . .
         . . . . .
         . . . . .
         . . . . .
